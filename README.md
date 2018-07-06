@@ -26,7 +26,21 @@ This will enter into an interactive Lisp prompt.
 After typing `(quit)` the intermediate results will be outputted to a file "results.txt".
 
 If you get errors, ensure you have correctly formatted your Lisp input.
+
 i.e: `(+ (+ 2 3) 5)` will work correctly, `(+ (+2 3) 5)` will not.
+
+## Examples
+
+```Lisp
+(+ (+ 2 3) 5)
+  => 10
+(define b 2)
+  => b
+(defun ADD (x y)(+ x y))
+  => ADD
+(ADD (8 3))
+  => 11
+```
 
 #
 
